@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\include">
+      <UniqueIdentifier>{75cf131e-92ac-4b1c-a897-2ca3c9c66d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame">
+      <UniqueIdentifier>{404da761-fcc6-4497-b73d-9ae54a14cc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj">
+      <UniqueIdentifier>{494d7ed3-50c2-41c5-8aa6-9ea6fdb268c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Monster">
+      <UniqueIdentifier>{520fdeea-6b22-4ddb-86c4-04c10ff90a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Bullet">
+      <UniqueIdentifier>{7cdb8479-8df1-4bc5-abab-4f47e43b2734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObjManager">
+      <UniqueIdentifier>{e5770459-6bb2-4ad8-bf3e-686af57271d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Monster\DefaultMonster">
+      <UniqueIdentifier>{8211644e-46cf-46e6-b3e8-6c01d3024b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Monster\UpgradeMonster">
+      <UniqueIdentifier>{5d0332ed-9547-4964-9c87-5d377448a94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Player">
+      <UniqueIdentifier>{ffba2630-3f16-4d20-8065-6e63412df0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Monster\GiantMonster">
+      <UniqueIdentifier>{ce5b0194-3cd9-4015-945b-f0c18ec03d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\StateManager">
+      <UniqueIdentifier>{dbc5cbc0-b4ae-4898-a623-0a49fd588a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObjManager\StateObj">
+      <UniqueIdentifier>{a65c10d8-3208-49c4-a400-f644ced170fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObjManager\StateObj\MainMenu">
+      <UniqueIdentifier>{c84955f2-dd4c-4d56-bb94-204d548c8d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObjManager\StateObj\Stage">
+      <UniqueIdentifier>{db40a7f8-9329-4a03-ad09-042c67c4555a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Weapon">
+      <UniqueIdentifier>{585ba631-9d08-4fa2-afc3-b22bf80a4afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\LoadBMP">
+      <UniqueIdentifier>{843a9e40-be9b-412d-91c1-964ea5b1d86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame\Obj\Bullet\Item">
+      <UniqueIdentifier>{db37edaa-89b2-439a-91bc-dc3028de9593}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApplication1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>헤더 파일\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\MainGame\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\MainGame\Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\MainGame\Obj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeMonster.h">
+      <Filter>소스 파일\MainGame\Obj\Monster\UpgradeMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\MainGame\Obj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjManager.h">
+      <Filter>소스 파일\ObjManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObj.h">
+      <Filter>소스 파일\ObjManager\StateObj</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\ObjManager\StateObj\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\ObjManager\StateObj\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>소스 파일\MainGame\StateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GiantMonster.h">
+      <Filter>소스 파일\MainGame\Obj\Monster\GiantMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\MainGame\Obj\Bullet\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>소스 파일\MainGame\Obj\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBMP.h">
+      <Filter>리소스 파일\LoadBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultMonster.h">
+      <Filter>소스 파일\MainGame\Obj\Monster\DefaultMonster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\MainGame\Obj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\MainGame\Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\MainGame\Obj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\MainGame\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjManager.cpp">
+      <Filter>소스 파일\ObjManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeMonster.cpp">
+      <Filter>소스 파일\MainGame\Obj\Monster\UpgradeMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="GiantMonster.cpp">
+      <Filter>소스 파일\MainGame\Obj\Monster\GiantMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApplication1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultMonster.cpp">
+      <Filter>소스 파일\MainGame\Obj\Monster\DefaultMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="StateObj.cpp">
+      <Filter>소스 파일\ObjManager\StateObj</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\ObjManager\StateObj\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\ObjManager\StateObj\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>소스 파일\MainGame\StateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\MainGame\Obj\Bullet\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>소스 파일\MainGame\Obj\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBMP.cpp">
+      <Filter>리소스 파일\LoadBMP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsApplication1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WindowsApplication1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
